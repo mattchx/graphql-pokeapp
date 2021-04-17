@@ -1,10 +1,10 @@
 import React from 'react'
 
-export const Pokemon = () => {
+export const Pokemon = ({pokemon}) => {
     return (
-        <div>
-            
-        </div>
+        <p>
+          {pokemon.name}  
+        </p>
     )
 }
 
